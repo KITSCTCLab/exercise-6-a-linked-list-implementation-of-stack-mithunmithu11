@@ -11,6 +11,8 @@ class Stack:
   def push(self, data) -> None:
     # Write your code here
      new_node.next = self.head
+      new_node.next = self.head
+
 
   def pop(self) -> None:
     # Write your code here
