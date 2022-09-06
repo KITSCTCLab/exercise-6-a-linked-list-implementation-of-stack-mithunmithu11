@@ -10,6 +10,7 @@ class Stack:
 
   def push(self, data) -> None:
     # Write your code here
+     new_node.next = self.head
 
   def pop(self) -> None:
     # Write your code here
@@ -18,7 +19,8 @@ class Stack:
     """
     It prints all the elements of stack.
     """
-    # Write your code here  
+    # Write your code here
+    def status(self):
 
 
 # Do not change the following code
